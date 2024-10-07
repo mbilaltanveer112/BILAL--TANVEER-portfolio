@@ -1,3 +1,5 @@
+import { FaWhatsapp } from "react-icons/fa";
+
 export const Bio = {
   name: "Muhmmad Bilal Tanveer",
   roles: [
@@ -15,6 +17,7 @@ export const Bio = {
   twitter: "https://twitter.com/",
   insta: "https://www.instagram.com/malik_bil_li?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   facebook: "https://www.facebook.com/",
+  FaWhatsapp: "https://api.whatsapp.com/send?phone=+923105445335&text=hello sir how are you ? my name is this  "
 };
 
 export const skills = [
@@ -312,7 +315,7 @@ export const education = [
     school: "OXFORD PUBLIC SCHOOL RAWILPINDI",
     date: "Apr 2012 - Apr 2021",
     desc: "I completed my class 8 education at Oxford Public School, Rawilpindi, .",
-    degree: "ICSC(X), Science with Computer",
+   
   },
 ];
 

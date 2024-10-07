@@ -3,6 +3,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import { FaWhatsapp } from "react-icons/fa";
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
@@ -101,10 +102,9 @@ function Footer() {
           <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.FaWhatsapp} target="display"><FaWhatsapp /></SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>
-          &copy; 2023 Rishav Chanda. All rights reserved.
-        </Copyright>
+        
 
       </FooterWrapper>
     </FooterContainer>
